@@ -1,0 +1,14 @@
+http://localhost:8000//poc-user-service/allusers
+
+http://localhost:8000/poc-user-service/adduser
+{
+    "userId": 11003,
+    "userName": "user2",
+    "password": "password",
+    "userType": "user",
+    "userEmail": "user2@gmail.com"
+}
+
+http://localhost:8000/poc-user-service/user-by-id?userId=11001
+
+http://localhost:8000/poc-user-service/delete-by-id?userId=11002
